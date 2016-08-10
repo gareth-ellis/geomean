@@ -6,18 +6,17 @@ geomean: function(numberseries) {
 if (numberseries.length <=1){
 	return null
 }
-var product=1.0;
-var error=false;
+var total=1.0;
 var count=numberseries.length;
 numberseries.forEach(function(number){
 	if (number === 0){
 		count--;
 	}else{
-		product=product*number;
+		total=total*number;
 	}
 });
 var exp=1/count;
-var geomean_result=math.pow(product,exp);
+var geomean_result=math.pow(total,exp);
 return geomean_result;
 
 
