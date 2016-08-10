@@ -1,6 +1,6 @@
 {
   "name": "geomean",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A quick and easy way of calculating the geometric mean from a series of numbers",
   "main": "geomean.js",
   "scripts": {
